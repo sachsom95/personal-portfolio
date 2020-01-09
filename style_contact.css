@@ -1,0 +1,79 @@
+/*from w3 schools https://www.w3schools.com/css/css3_box-sizing.asp*/
+/*
+* {
+  box-sizing: border-box;
+}
+*/
+/*https://www.tutorialrepublic.com/faq/how-to-set-a-div-height-to-100-percent-using-css.php*/
+   html, body {
+        height: 100%;
+        margin: 0px;
+    }
+body{
+    font-family: "andale mono";
+    margin: 0;
+    min-height: 100%;
+}
+/*Navigatation bar css inspired from https://www.w3schools.com/css/css_navbar.asp*/
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+}
+
+.navbar a {
+  float: right;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+}
+
+
+.navbar a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.container {  
+  display: flex;
+  flex-wrap: wrap;
+   min-height:100%;
+}
+
+.left{
+    flex: 50%;
+    background: #333;
+    min-height: 100%;
+}
+.right{
+    flex:50%;
+    background: #eee;
+    min-height: 100%;
+    
+}
+
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #cecece;
+}
+.container h2,p{
+    color: #fff;
+    font-family: "andale mono";
+    text-align: center;
+}
+.container p{
+    font-size: 5vh;
+    padding: 10px;
+    
+}
+#connect_top{
+    margin-top: 150px;
+}
+
+.icons  {
+    justify-content: center;
+    text-align: center;
+}
+

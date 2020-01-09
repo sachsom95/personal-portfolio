@@ -1,0 +1,81 @@
+/*from w3 schools https://www.w3schools.com/css/css3_box-sizing.asp*/
+* {
+  box-sizing: border-box;
+}
+body{
+    font-family: "andale mono";
+    margin: 0;
+}
+/*Navigatation bar css inspired from https://www.w3schools.com/css/css_navbar.asp*/
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+}
+
+.navbar a {
+  float: right;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+}
+
+.navbar a.right {
+  float: right;
+}
+
+.navbar a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.container {  
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.side_bar{
+    flex: 30%;
+    padding: 20px;
+    background-color: #EEEEEE;
+    
+}
+
+.data{
+    padding-left: 10px;
+    width: 80%;
+    padding-bottom: 10px;
+}
+.main{
+    flex: 70%;
+    background-color:#FFFFFF;
+}
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #cecece;
+}
+
+.video{
+    display: flex;
+    padding: 20px;
+    margin-top: 50px;
+    
+}
+.amrita{
+    flex:50%;
+}
+.polimi{
+    flex: 50%;
+}
+.my_face img{
+ object-fit: cover; 
+ width:250px;
+ height:250px;
+ border-radius: 25px;
+ padding: 15px;
+}
+
+
+
